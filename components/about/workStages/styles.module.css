@@ -1,0 +1,16 @@
+.iconContainer {
+  width: fit-content;
+  border: 2px dotted #dddd;
+  border-radius: 50%;
+  margin: 0 auto 20px auto;
+  padding: 30px 35px;
+  transition: 0.5s;
+}
+
+.itemContainer:hover svg {
+  color: var(--secondary-color);
+}
+.itemContainer:hover .iconContainer {
+  border: 2px dotted var(--secondary-color);
+  transform: translateY(-10px);
+}

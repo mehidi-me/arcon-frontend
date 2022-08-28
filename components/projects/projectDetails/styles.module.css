@@ -1,0 +1,17 @@
+.container {
+    background: url('/images/projectImg.jpg');
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+    height: 600px;
+  }
+  
+  .container::before {
+    position: absolute;
+    content: "";
+    background: rgb(12, 11, 27);
+    opacity: 0.6;
+    z-index: -9; 
+    
+  }
+  

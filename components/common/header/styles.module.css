@@ -1,0 +1,9 @@
+.container {
+    background: url('/images/semi-header.jpg');
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+    height: 400px;
+    
+  }
+

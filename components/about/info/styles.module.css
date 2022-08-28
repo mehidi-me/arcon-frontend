@@ -1,0 +1,19 @@
+.itemContainer {
+    cursor: default;
+}
+
+.itemContainer h6::after {
+  display: block;
+  content: "";
+  border-bottom: solid 3px var(--secondary-color);
+  transform: scaleX(0);
+  transition: transform 1s ease-in-out;
+}
+
+.itemContainer:hover h6 {
+    color: var(--secondary-color);
+}
+
+.itemContainer:hover h6:after {
+  transform: scaleX(0.5);
+}

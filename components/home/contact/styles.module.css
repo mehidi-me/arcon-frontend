@@ -1,0 +1,31 @@
+.container {
+    position:relative;
+    background-image: url('../../../public/images/images11.jpg');
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+
+.contactInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 100%;
+  position: static;
+}
+
+.formContainer {
+    position:relative;
+    background-image: url('../../../public/images/formBG.png');
+    background-color: rgb(24, 24, 24);
+    overflow: hidden;
+    width: 100%;
+}
+
+.formContainer::after {
+    content:'';
+    z-index: -7;
+}
+

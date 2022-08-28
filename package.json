@@ -1,0 +1,51 @@
+{
+  "name": "inoterior",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.7.1",
+    "@emotion/react": "^11.7.1",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.2.5",
+    "@mui/lab": "^5.0.0-alpha.61",
+    "@mui/material": "^5.2.5",
+    "axios": "^0.24.0",
+    "css-loader": "^6.5.0",
+    "filepond": "^4.30.3",
+    "filepond-plugin-image-exif-orientation": "^1.0.11",
+    "filepond-plugin-image-preview": "^4.6.10",
+    "formik": "^2.2.9",
+    "js-cookie": "^3.0.1",
+    "next": "12",
+    "nextjs-progressbar": "^0.0.13",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-filepond": "^7.1.1",
+    "react-messenger-customer-chat": "^0.8.0",
+    "react-query": "^3.32.3",
+    "react-slick": "^0.28.1",
+    "recoil": "^0.5.2",
+    "sharp": "^0.29.3",
+    "slick-carousel": "^1.8.1",
+    "style-loader": "^3.3.1",
+    "suneditor": "^2.41.3",
+    "suneditor-react": "^3.3.1",
+    "webpack": "^5.61.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.1",
+    "@types/react": "17.0.31",
+    "@types/react-slick": "^0.23.7",
+    "eslint": "8.0.1",
+    "eslint-config-next": "11.1.2",
+    "typescript": "4.4.4"
+  }
+}

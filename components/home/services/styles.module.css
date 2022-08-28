@@ -1,0 +1,63 @@
+@media screen and (max-width: 599px) {
+  .itemContainer h6,
+  .itemContainer p {
+    text-align: center;
+  }
+  .iconContainer {
+    margin: 0 auto;
+  }
+}
+
+.iconContainer {
+  width: fit-content;
+  transition: 0.5s ease-in-out;
+}
+
+.itemContainer:hover .iconContainer {
+  transform: rotateY(180deg);
+}
+
+.sideImg {
+  background: url('/images/serviceImg.jpg');
+  position: relative;
+  background-size: cover;
+  overflow: hidden;
+  height: 500px;
+  width: 100%;
+}
+
+@media (min-width:900px) and (max-width:924px){
+
+  /*   I apply only to screens between 400px and 699px*/
+  .sideImg {
+    background: url("/images/serviceImg.jpg");
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+    height: 660px;
+    width: 100%;
+  }
+
+
+  }
+
+  @media (min-width:925px) and (max-width:1063px){
+
+    /*   I apply only to screens between 400px and 699px*/
+    .sideImg {
+      background: url("/images/serviceImg.jpg");
+      position: relative;
+      background-size: cover;
+      overflow: hidden;
+      height: 600px;
+      width: 100%;
+    }
+
+    }
+
+    .textDec {
+      text-decoration-line: underline;
+      text-decoration-color: var(--secondary-color);
+      color: var(--tertiary-color);
+      font-weight: 700;
+    }

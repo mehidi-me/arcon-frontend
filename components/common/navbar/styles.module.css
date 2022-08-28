@@ -1,0 +1,23 @@
+.itemContainer {
+  position: relative;
+  padding: 0 !important;
+}
+.itemContainer::before {
+  position: absolute;
+  content: '';
+  background-color: var(--secondary-color);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s ease-in-out;
+}
+.itemContainer:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+.active {
+  color: var(--secondary-color);
+}

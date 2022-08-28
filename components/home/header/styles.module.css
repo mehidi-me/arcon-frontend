@@ -1,0 +1,79 @@
+.headerImage {
+  z-index: -10;
+  animation-name: slideInLeft;
+  animation-duration: 1s;
+  transition: all 1s;
+}
+
+.headerText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.animateLeftToRight {
+  animation: slideInLeft 1s forwards;
+  opacity: 0;
+  transform: translateX(8rem);
+}
+
+.animateRightToLeft {
+  animation: slideInRight 1s forwards;
+  opacity: 0;
+  transform: translateX(-8rem);
+}
+
+.animateButton {
+  animation: slideUp 1s forwards;
+  opacity: 0;
+  transform: translateY(4rem);
+}
+
+.borderFadeIn {
+  animation: fadeIn 1s forwards;
+  opacity: 0;
+}
+
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(8rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-8rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

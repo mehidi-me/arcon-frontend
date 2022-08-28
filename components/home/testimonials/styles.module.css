@@ -1,0 +1,56 @@
+.container {
+  position: relative;
+  overflow: hidden;
+  top: -3rem;
+  margin-bottom: -3rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.336), rgba(0, 0, 0, 0.336)),
+    url('../../../public/images/bgtest.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.reviewCard {
+  background: rgba(24, 24, 24, 0.45);
+  position: relative;
+  padding: 40px 50px 40px;
+  margin: 10px 30px 50px 50px;
+  box-shadow: 0 2px 14px 0 rgb(0 0 0 / 10%);
+}
+
+.avatarContainer {
+  vertical-align: top;
+  display: table-cell;
+  z-index: -1;
+}
+
+.avatar {
+  width: 106px;
+  height: 106px;
+  float: left;
+  margin-left: -90px;
+  border-radius: 50%;
+  margin-top: 5px;
+  position: relative;
+  border: 3px solid var(--secondary-color);
+  padding: 7px;
+}
+
+.img {
+  border-radius: 50%;
+  display: block;
+}
+
+.content {
+  padding-left: 26px;
+  color: #fff;
+  display: table-cell;
+  vertical-align: middle;
+  z-index: -1;
+}
+
+/* .svgIcon {
+  position: absolute;
+  right: 20px;
+  bottom: 30px;
+  width: 60px;
+} */
